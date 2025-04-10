@@ -82,7 +82,7 @@ export default function Home() {
         {/* "Explore The Idea" Button */}
         <a
           href="#content"
-          className="absolute bottom-12 sm:bottom-8 left-0 right-0 flex justify-center items-center space-x-2 cursor-pointer"
+          className="absolute bottom-[4em] sm:bottom-8 left-0 right-0 flex justify-center items-center space-x-2 cursor-pointer"
         >
           <BsArrow90DegDown className="animate-bounce text-white text-2xl" />
           <span className="text-white text-2xl sm:text-3xl font-semibold animate-bounce">
