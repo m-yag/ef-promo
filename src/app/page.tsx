@@ -58,7 +58,7 @@ export default function Home() {
             <EmailForm />
           </div>*/}
 
-          <h1 className="text-4xl sm:text-5xl pt-[6em] sm:pt-5 font-bold text-white">
+          <h1 className="text-4xl sm:text-5xl pt-[3em] md:pt-5 font-bold text-white">
             Coming Soon
           </h1>
 
@@ -73,11 +73,6 @@ export default function Home() {
           <EmailForm />
         </div>*/}
 
-        {/*<div>
-          <p className='text-4xl fixed bottom-10 -translate-y-1/2'>
-            Explore The Idea
-          </p>
-        </div>*/}
 
         {/* "Explore The Idea" at the Bottom */}
         {/*<div className="absolute bottom-8 left-0 right-0 flex justify-center">
@@ -87,10 +82,10 @@ export default function Home() {
         {/* "Explore The Idea" Button */}
         <a
           href="#content"
-          className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-2 cursor-pointer"
+          className="absolute bottom-12 sm:bottom-8 left-0 right-0 flex justify-center items-center space-x-2 cursor-pointer"
         >
           <BsArrow90DegDown className="animate-bounce text-white text-2xl" />
-          <span className="text-white text-2xl font-semibold animate-bounce">
+          <span className="text-white text-2xl sm:text-3xl font-semibold animate-bounce">
             Explore The Idea
           </span>
         </a>
