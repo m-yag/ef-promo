@@ -199,7 +199,7 @@ export default function Home() {
           {/* Comparison Container */}
           <div className="order-2 md:order-1 flex flex-col gap-4 md:flex-row md:w-1/2 items-center">
             <img
-              src="/moe_still.png" // Replace with your actual image path
+              src="/painting_still.png" // Replace with your actual image path
               alt="Animated Portrait Example 5"
               className="w-full md:w-1/2 rounded object-cover"
             />
@@ -214,7 +214,7 @@ export default function Home() {
               muted
               playsInline
             >
-              <source src="/moe_animated.mp4" type="video/mp4" />
+              <source src="/painting_animated.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
