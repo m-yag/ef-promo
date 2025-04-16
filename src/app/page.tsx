@@ -250,12 +250,31 @@ export default function Home() {
   </div>
 </section>*/}
 
-<section className="relative w-full">
+{/*<section className="relative w-full">
   <img
     src="/frame_image3.png"
     alt="Transition Image"
     className="w-full h-[96vh] object-cover xl:mt-[-2em] 2xl:mt-[-4em] md:object-[50%_80%]"
   />
+  <div
+    className="absolute inset-0"
+    style={{
+      background: "linear-gradient(to top, transparent 80%, #04151F 100%)",
+    }}
+  ></div>
+</section>*/}
+
+<section className="relative w-full">
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="w-full h-[96vh] object-cover xl:mt-[-2em] 2xl:mt-[-4em] md:object-[50%_80%]"
+  >
+    <source src="/frame_video1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <div
     className="absolute inset-0"
     style={{
